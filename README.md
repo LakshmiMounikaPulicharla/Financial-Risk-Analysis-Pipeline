@@ -62,7 +62,7 @@ The goal is to derive **data-driven insights** and visualize key financial indic
 ---
 
 ## Project Structure
-
+...
 R/
 ├── shiny/
 │ └── app.R # Main Shiny dashboard
@@ -75,7 +75,7 @@ powerbi/
 ├── ...
 run_all.R
 README.md
-
+...
 
 ---
 
