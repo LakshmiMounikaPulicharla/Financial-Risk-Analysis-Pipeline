@@ -78,6 +78,10 @@ datawarehouse/
 └── run_all.R
 ```
 
+
+**Note:** Output files are not included due to size constraints. The dashboard generates results dynamically.
+
+
 ---
 
 ## Running the Dashboard
