@@ -63,18 +63,20 @@ The goal is to derive **data-driven insights** and visualize key financial indic
 
 ## Project Structure
 
-R/
-├── shiny/
-│ └── app.R # Main Shiny dashboard
-├── 00_setup.R
-├── 01_data_loading.R
-├── ...
-powerbi/
-├── cleaned_data_for_powerbi.csv
-├── risk_level_summary.csv
-├── ...
-run_all.R
-README.md
+```
+datawarehouse/
+├── R/
+│   ├── shiny/
+│   │   └── app.R           ← Main Shiny app
+│   ├── 00_setup.R
+│   ├── 01_data_loading.R
+│   └── ... (other R scripts)
+├── powerbi/
+│   ├── cleaned_data_for_powerbi.csv
+│   ├── risk_level_summary.csv
+│   └── ... (other CSVs)
+└── run_all.R
+```
 
 ---
 
